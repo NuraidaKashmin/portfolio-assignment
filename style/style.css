@@ -7,6 +7,9 @@
 body{
     font-family: "Azeret Mono", monospace;
 }
+/* main section{
+    margin-top: 130px;
+} */
 /* banner styles */
 .banner-container{
     max-width: 1440px;
@@ -60,3 +63,210 @@ body{
 }
 /* main styles start */
 /* why web development section styles */
+.development-container{
+    width: 1140px;
+    height: 1393px;
+    background-color: rgb(251, 249, 249);
+    margin: 0px auto;
+    text-align: center;
+    margin-top: 90px;
+}
+.development-title h2{
+    font-size: 32px;
+    font-weight: bolder;
+    padding-top: 80px;
+    margin-bottom: 24px;
+}
+.development-title p{
+    font-size: 16px;
+    color: #5b5959;
+    margin-left: 144px;
+    margin-right: 144px;
+    margin-bottom: 48px;
+}
+.sub-title-one{
+    display: flex;
+    justify-content: space-between;
+    padding: 48px;
+    background-color: rgb(239, 235, 235);
+    height: 336px;
+    width: 946px;
+    margin: 0px auto;
+    gap: 98px;
+    margin-bottom: 32px;
+}
+.sub-title-one h6{
+    font-size: 24px;
+    font-weight: bold;
+    color: #5b5959;
+    text-align: left;
+    margin-bottom: 16px;
+    padding-right: 87px;
+}
+.sub-title-one p{
+    font-size: 16px;
+    color: #5b5959;
+    text-align: left;
+    margin-bottom: 32px;
+    padding-right: 9px;
+}
+.learn-btn{
+    height: 47px;
+    width: 141px;
+    border: 2px solid #5b5959;
+    padding: 12px 12px;
+}
+.learn-btn p{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+
+}
+.sub-title-two{
+    display: flex;
+    justify-content: space-between;
+    padding: 48px;
+    background-color: rgb(239, 235, 235);
+    height: 336px;
+    width: 946px;
+    margin: 0px auto;
+    gap: 50px;
+    margin-bottom: 32px;
+}
+.sub-title-two h6{
+    font-size: 24px;
+    font-weight: bold;
+    color: #5b5959;
+    text-align: left;
+    margin-bottom: 16px;
+    padding-right: 87px;
+}
+.sub-title-two p{
+    font-size: 16px;
+    color: #5b5959;
+    text-align: left;
+    margin-bottom: 32px;
+    padding-right: 9px;
+}
+.sub-title-three{
+    display: flex;
+    justify-content: space-between;
+    padding: 48px;
+    background-color: rgb(239, 235, 235);
+    height: 336px;
+    width: 946px;
+    margin: 0px auto;
+    gap: 133px;
+    margin-bottom: 32px;
+}
+.sub-title-three h6{
+    font-size: 24px;
+    font-weight: bold;
+    color: #5b5959;
+    text-align: left;
+    margin-bottom: 16px;
+    padding-right: 87px;
+}
+.sub-title-three p{
+    font-size: 16px;
+    color: #5b5959;
+    text-align: left;
+    margin-bottom: 32px;
+    padding-right: 9px;
+}
+/* inspiration styles */
+.inspiration-container{
+    width: 1140px;
+    height: 775px;
+    margin: 0px auto;
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+.inspiration-container h2{
+    font-size: 32px;
+    font-weight: bolder;
+    margin-bottom: 24px;
+}
+.inspiration-container p{
+    font-size: 16px;
+    color: #5b5959;
+    margin-left: 144px;
+    margin-right: 144px;
+    margin-bottom: 60px;
+}
+/* target styles */
+/* .target{
+    width: 1140px;
+    height: 460px;
+    margin: 0px auto;
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: 90px;
+} */
+.target h2{
+    font-size: 32px;
+    font-weight: bolder;
+    margin-bottom: 24px; 
+    text-align: center;
+}
+.target-text{
+    font-size: 16px;
+    color: #5b5959;
+    margin-left: 144px;
+    margin-right: 144px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+.target-title{
+    font-size: 24px;
+    font-weight: bold;
+    color: #0f0d0d;
+    text-align: left;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.target-description{
+    font-size: 16px;
+    color: #5b5959;
+    text-align: left;
+    /* padding: 10px; */
+}
+.target-name-one{
+    text-align: left;
+    padding: 40px;
+    background-color: #f6e9e7;
+}
+.target-name-two{
+    text-align: left;
+    padding: 40px;
+    background-color: rgb(215, 215, 243);
+}
+.target-name-three{
+    text-align: left;
+    padding: 40px;
+    background-color: rgb(238, 240, 214);
+}
+.target-content{
+    display: flex;
+    justify-content: space-evenly;
+    /* text-align: center; */
+    gap: 24px;
+    padding: 10px;
+    margin-right: 150px;
+    margin-left: 150px;
+    width: 1000px;
+    height: 360px;
+}
+.target-learn-btn{
+    height: 19px;
+    width: 135px;
+    margin-top: 44px;
+}
+.target-learn-btn p{
+    font-size: 16px;
+    font-weight: bold;
+    border-bottom: 1px solid #5b5959;
+    text-align: left;
+    border
+}
