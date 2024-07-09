@@ -268,5 +268,32 @@ body{
     font-weight: bold;
     border-bottom: 1px solid #5b5959;
     text-align: left;
-    border
+}
+/* support section */
+.support-image{
+    background-image: url(../assets/handshake.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 313px;
+    width: 1140px;
+    margin: 0px auto;
+}
+.support-image h2{
+    font-size: 32px;
+    font-weight: bolder;
+    margin-bottom: 24px;
+    padding-top: 64px;
+    text-align: center;
+    color: white;
+}
+.support-image p{
+    font-size: 16px;
+    color: #faf7f7;
+    text-align: center;
+    margin-left: 144px;
+    margin-right: 144px;
+    margin-bottom: 60px;
+}
+.support{
+    margin-top: 90px;
 }
