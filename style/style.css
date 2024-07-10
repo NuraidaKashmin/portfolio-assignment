@@ -196,14 +196,16 @@ body{
     margin-bottom: 60px;
 }
 /* target styles */
-/* .target{
+.target{
     width: 1140px;
     height: 460px;
     margin: 0px auto;
-    text-align: center;
-    margin-top: 90px;
-    margin-bottom: 90px;
-} */
+    /* margin-right: 150px;
+    margin-left: 150px; */
+    /* text-align: center; */
+    /* margin-top: 90px;
+    margin-bottom: 90px; */
+}
 .target h2{
     font-size: 32px;
     font-weight: bolder;
@@ -250,11 +252,11 @@ body{
 .target-content{
     display: flex;
     justify-content: space-evenly;
-    /* text-align: center; */
+    text-align: center;
     gap: 24px;
     padding: 10px;
     margin-right: 150px;
-    margin-left: 150px;
+    margin-left: 90px;
     width: 1000px;
     height: 360px;
 }
@@ -277,6 +279,7 @@ body{
     height: 313px;
     width: 1140px;
     margin: 0px auto;
+    text-align: center;
 }
 .support-image h2{
     font-size: 32px;
@@ -295,5 +298,43 @@ body{
     margin-bottom: 60px;
 }
 .support{
-    margin-top: 90px;
+    margin-top: 150px;
+    margin-bottom: 80px;
+}
+.input-content{
+    height: 57px;
+    width: 548px;
+    margin-left: 180px;
+    background-color: white;
+    padding: 19px 216px 19px 20px;
+    text-align: left;
+    font-size: 16px;
+    color: #5b5959;
+}
+.submit-btn{
+    height: 57px;
+    width: 120px;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    color: #292525;
+    background-color: white;
+}
+.support-input{
+    display: flex;
+    gap: 16px;
+}
+footer{
+    margin: 0px auto;
+    height: 100px;
+    width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background-color: #faf7f7;
+    padding: 39px 150px;
+}
+footer h6{
+    font-size: 20px;
+    color: #5b5959;
 }
