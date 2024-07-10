@@ -7,9 +7,6 @@
 body{
     font-family: "Azeret Mono", monospace;
 }
-/* main section{
-    margin-top: 130px;
-} */
 /* banner styles */
 .banner-container{
     max-width: 1440px;
@@ -38,19 +35,18 @@ body{
     font-weight: bolder;
     color: #0D1321;
     margin-bottom: 24px;
-    /* padding: 0px 10px; */
     width: 998px;
     text-align: center;
 }
 .banner-content p{
     font-size: 16px;
-    color: #5b5959;
+    color: #292525;
     margin-bottom: 32px;
-    /* padding: 0px 73px 0px 73px; */
     text-align: center;
     width: 852px;
 }
 .banner-btn{
+    text-decoration: none;
     height: 65px;
     width: 244px;
     background-color: #0D1321;
@@ -60,6 +56,7 @@ body{
     text-align: center;
     padding: 21px 24px;
     border-radius: 8px;
+    cursor: pointer;
 }
 /* main styles start */
 /* why web development section styles */
@@ -88,12 +85,13 @@ body{
     display: flex;
     justify-content: space-between;
     padding: 48px;
-    background-color: rgb(239, 235, 235);
+    background-color: rgb(245, 241, 241);
     height: 336px;
     width: 946px;
     margin: 0px auto;
     gap: 98px;
     margin-bottom: 32px;
+    text-align: left;
 }
 .sub-title-one h6{
     font-size: 24px;
@@ -111,10 +109,14 @@ body{
     padding-right: 9px;
 }
 .learn-btn{
+    /* text-align: left; */
+    text-decoration: none;
+    color: #5b5959;
     height: 47px;
     width: 141px;
     border: 2px solid #5b5959;
     padding: 12px 12px;
+    cursor: pointer;
 }
 .learn-btn p{
     font-size: 16px;
@@ -124,9 +126,9 @@ body{
 }
 .sub-title-two{
     display: flex;
+    text-align: left;
     justify-content: space-between;
     padding: 48px;
-    background-color: rgb(239, 235, 235);
     height: 336px;
     width: 946px;
     margin: 0px auto;
@@ -149,10 +151,11 @@ body{
     padding-right: 9px;
 }
 .sub-title-three{
+    text-align: left;
     display: flex;
     justify-content: space-between;
     padding: 48px;
-    background-color: rgb(239, 235, 235);
+    background-color: rgb(245, 241, 241);
     height: 336px;
     width: 946px;
     margin: 0px auto;
@@ -181,7 +184,7 @@ body{
     margin: 0px auto;
     text-align: center;
     margin-top: 90px;
-    margin-bottom: 90px;
+    margin-bottom: 10px;
 }
 .inspiration-container h2{
     font-size: 32px;
@@ -200,11 +203,6 @@ body{
     width: 1140px;
     height: 460px;
     margin: 0px auto;
-    /* margin-right: 150px;
-    margin-left: 150px; */
-    /* text-align: center; */
-    /* margin-top: 90px;
-    margin-bottom: 90px; */
 }
 .target h2{
     font-size: 32px;
@@ -232,7 +230,7 @@ body{
     font-size: 16px;
     color: #5b5959;
     text-align: left;
-    /* padding: 10px; */
+    margin-bottom: 38px;
 }
 .target-name-one{
     text-align: left;
@@ -261,9 +259,11 @@ body{
     height: 360px;
 }
 .target-learn-btn{
+    color: #5b5959;
     height: 19px;
     width: 135px;
     margin-top: 44px;
+    cursor: pointer;
 }
 .target-learn-btn p{
     font-size: 16px;
@@ -273,13 +273,14 @@ body{
 }
 /* support section */
 .support-image{
-    background-image: url(../assets/handshake.jpg);
+    background-image: linear-gradient(45deg, #000000, transparent), url(../assets/handshake.jpg);
     background-size: cover;
     background-position: center;
     height: 313px;
     width: 1140px;
     margin: 0px auto;
     text-align: center;
+
 }
 .support-image h2{
     font-size: 32px;
@@ -319,6 +320,7 @@ body{
     font-size: 20px;
     color: #292525;
     background-color: white;
+    cursor: pointer;
 }
 .support-input{
     display: flex;
@@ -337,4 +339,11 @@ footer{
 footer h6{
     font-size: 20px;
     color: #5b5959;
+}
+footer img{
+    cursor: pointer;
+}
+
+.bunga {
+    text-decoration: none;
 }
